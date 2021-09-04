@@ -172,7 +172,7 @@ type PetSelection struct {
 type SkillSelection struct {
 	Legends []string     `json:"legends"`
 	Heal    int          `json:"heal"`
-	Utility []int        `json:"utility"`
+	Utility []int        `json:"utilities"`
 	Elite   int          `json:"elite"`
 	Pets    PetSelection `json:"pets"`
 }
